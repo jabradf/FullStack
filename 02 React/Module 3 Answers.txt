@@ -1,0 +1,99 @@
+    The useEffect hook in React enables the execution of side effects within functional components. In React's useEffect hook, dependencies refer to variables or values that determine when useEffect should run.
+
+    Custom hooks allow you to abstract complex logic and easily reuse it across different components in your application.
+
+    External services are any program, platform, or infrastructure your application uses to connect to and work with other applications over a network.
+
+    APIs enable you to acquire data, execute operations, or add extra features to your application.
+
+    Within React, components typically manage form data.
+
+    React inputs are classified into two categories: controlled and uncontrolled. In uncontrolled input, React puts the value on the page, and the browser keeps track of the rest. Controlled inputs, require you to write the code to manage the value explicitly.
+
+    Access control methods are frameworks for regulating access to physical or digital resources. There are two types of access control methods: traditional and innovative.
+
+
+-------------
+Module 3 Lesson 1
+1. How would you explain the useReducer hook's main purpose?
+managing redux state changes
+
+2. Which hook would you recommend to manage side effects?
+useEffect
+
+3. Why would you need to create a custom hook?
+to share reusable stateful logic across components
+
+4. Which hook would you recommend for making HTTP requests within React functional components?
+useEffect
+
+5. Which hook could you use to store fetched data from an external service?
+NOT use Effect
+NOT useContext
+useReducer?
+NOT useProps
+
+-------------
+Lesson 2
+    The Redux elements involved in updating the component properties include actions, the Store, and reducers.
+
+    Redux makes use of the entire application's states as opposed to using component states.
+
+    Within Redux, the existing application states reside within an object known as the store.
+
+    You use action objects to communicate to the store what data you need to update and use reducers to tell the application how to make the update. 
+
+    Reducers are pure functions that receive the current state and an action object and return a new state with the actions performed.
+
+    Synchronous operations run in a first-to-last sequence, beginning the next operation only after the previous one has finished. 
+
+    Asynchronous operations can occur in parallel. They don't require the previous operation to be completed before beginning the next. 
+
+
+1. What is Redux primarily used for in React applications?
+Managing application state
+
+2. What is a benefit of using Redux in application development?
+NOT Optimises data flow in your application
+
+3. What architectural elements does Redux primarily use to manage an application's states?
+Actions, the store and reducers
+
+4. Which of the following accurately describes the role of reducers in Redux?
+Receiving the current state and and action object and returning a new state after performing the actions
+
+5. Which two main types of middleware commonly handle asynchronous operations in Redux?
+thunk and Saga
+
+
+-----------
+Graded
+1. What hook can you use to manage a form's state in React?
+useState
+
+2. Which hook should you use to handle asynchronous logic in functional components?
+NOT useAsync
+
+3. How can you trigger an effect to run only once after the initial render in a functional component?
+useEffect with empty dependency array
+
+4. How can you handle form submission in React?
+onSubmit
+
+5. How can you handle user input in a controlled component in React?
+onChange event handler
+
+6. What is an advantage of using Redux Thunk middleware?
+enables async operations without boilerplate code
+
+7. What is Redux Toolkit primarily used for?
+reducing boilerplate code
+
+8. Which function from the Redux Toolkit consolidates Redux setup logic into a single function call?
+NOT createReducer
+
+9. What is the purpose of a Redux slice?
+NOT to handle async operations
+
+10. Which middleware is commonly used with Redux to handle asynchronous actions and side effects
+Thunk

@@ -1,0 +1,81 @@
+1. How do props contribute to component composition in building complex 
+Allowing unidirectional flow
+
+2. Which component composition principle focuses on making reusable components that encapsulate UI features?
+Abstractions
+
+3. How is the state managed in function components in React?
+With the useState hook
+
+4. Which phase of the functional component's lifecycle involves responding to changes in the component's state or props and reinvoking the function body?
+Updating Phase
+
+5. Which two phases of the functional component's lifecycle handles errors and prevents them from crashing the entire application?
+
+Error Handling
+Mounting Phase
+
+
+Mod 2 lesson 2
+1. In JavaScript, what method should you use to add new items to the end of an array?
+push()
+
+
+2. How do you access the first element of an array in JavaScript?
+arr[0]
+
+3. In React, what method would you commonly use to render lists of elements dynamically?
+NOT forEach()
+
+4. How does React quickly update the DOM when props or state changes?
+by using the virtual DOM
+
+5. Which of these is true about React's Virtual DOM?
+It's a lightweight in-memory representation
+
+
+Graded
+1.Which of the following function component principles helps you identify errors well?
+unidirectional
+
+2. What purpose does higher-order function component composition serve?
+Adding features
+
+3. How does the hierarchy principle benefit component organization in React?
+Modular design parent-child
+
+4. Which hook function should you use to update the user's name from "Marie" to "Marie Torres" in React?
+setName()
+
+5. If you allow users to collapse or expand a section for better readability, which approach would provide the best user experience to control screen clutter?
+Separate component with toggle
+
+6. Which phase of a functional component's lifecycle does React use to initialize a component and prepare it for rendering on the DOM?
+Mounting Phase
+
+7. Examine the following code:
+
+useEffect(() => {
+
+ fetch('https://api.example.com/products')
+
+ .then(response => response.json())
+
+ .then(data => setProducts(data))
+
+ .catch(error => console.error('Error fetching products:', error));
+
+}, [ ]);
+
+What purpose does the empty dependency array, [], serve?
+NOT Declares and initialises
+NOT responds to user actions
+
+8. Which of the following methods removes elements from an array based on a condition?
+filter
+
+9. Which of the following can you use to provide additional data about an HTML element?
+Attribute
+
+10. Which key benefit of React's virtual DOM enables efficient updates?
+re-rendering only the updated component
